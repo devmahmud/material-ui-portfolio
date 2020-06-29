@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import Drawer from "@material-ui/core/Drawer";
 import Box from "@material-ui/core/Box";
 import AppBar from "@material-ui/core/AppBar";
@@ -47,10 +48,10 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const menuItems = [
-  { listIcon: <Home />, listText: "Home" },
-  { listIcon: <AssignmentInd />, listText: "Resume" },
-  { listIcon: <Apps />, listText: "Portfolio" },
-  { listIcon: <ContactMail />, listText: "Contact" },
+  { listIcon: <Home />, listText: "Home", listPath: "/" },
+  { listIcon: <AssignmentInd />, listText: "Resume", listPath: "/resume" },
+  { listIcon: <Apps />, listText: "Portfolio", listPath: "/portfolio" },
+  { listIcon: <ContactMail />, listText: "Contact", listPath: "/contact" },
 ];
 
 const Navbar = () => {
@@ -69,6 +70,8 @@ const Navbar = () => {
             key={i}
             className={classes.listItem}
             onClick={() => setOpen(false)}
+            component={Link}
+            to={item.listPath}
           >
             <ListItemIcon className={classes.listItem}>
               {item.listIcon}
