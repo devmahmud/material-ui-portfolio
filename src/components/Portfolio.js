@@ -31,56 +31,50 @@ const useStyles = makeStyles((theme) => ({
 const projects = [
   {
     name: "Project 1",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!",
+    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
+    consequatur magni quod nesciunt necessitatibus molestiae non
+    eligendi, magnam est aliquam recusandae? Magnam soluta minus
+    iste alias sunt veritatis nisi dolores!`,
     image: project1,
   },
   {
     name: "Project 2",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
+    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
     consequatur magni quod nesciunt necessitatibus molestiae non\
     eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!",
+    iste alias sunt veritatis nisi dolores!`,
     image: project2,
   },
   {
     name: "Project 3",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
+    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
     consequatur magni quod nesciunt necessitatibus molestiae non\
     eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!",
+    iste alias sunt veritatis nisi dolores!`,
     image: project3,
   },
   {
     name: "Project 4",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
+    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
     consequatur magni quod nesciunt necessitatibus molestiae non\
     eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!",
+    iste alias sunt veritatis nisi dolores!`,
     image: project4,
   },
   {
     name: "Project 5",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
+    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
     consequatur magni quod nesciunt necessitatibus molestiae non\
     eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!",
+    iste alias sunt veritatis nisi dolores!`,
     image: project5,
   },
   {
     name: "Project 6",
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
+    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
     consequatur magni quod nesciunt necessitatibus molestiae non\
     eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!",
+    iste alias sunt veritatis nisi dolores!`,
     image: project6,
   },
 ];
@@ -92,7 +86,7 @@ const Portfolio = () => {
       <Grid container justify="center">
         {/* Projects */}
         {projects.map((project, i) => (
-          <Grid item xs={12} sm={8} md={6} key={i}>
+          <Grid item xs={12} sm={8} md={4} key={i}>
             <Card className={classes.cardContainer}>
               <CardActionArea>
                 <CardMedia
