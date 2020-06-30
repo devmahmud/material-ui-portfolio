@@ -62,12 +62,3 @@ Email: expelmahmud@gmail.com
 </blockquote>
 
 ========Thank You !!!=========
-
-#### Author
-
-<blockquote>
-Mahmudul alam<br>
-Email: expelmahmud@gmail.com
-</blockquote>
-
-========Thank You !!!=========
