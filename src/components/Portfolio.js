@@ -91,8 +91,8 @@ const Portfolio = () => {
     <Box component="div" className={classes.mainContainer}>
       <Grid container justify="center">
         {/* Projects */}
-        {projects.map((project) => (
-          <Grid item xs={12} sm={8} md={6}>
+        {projects.map((project, i) => (
+          <Grid item xs={12} sm={8} md={6} key={i}>
             <Card className={classes.cardContainer}>
               <CardActionArea>
                 <CardMedia
@@ -109,15 +109,15 @@ const Portfolio = () => {
                     {project.description}
                   </Typography>
                 </CardContent>
-                <CardActions>
-                  <Button size="small" color="primary">
-                    Share
-                  </Button>
-                  <Button size="small" color="primary">
-                    Live Demo
-                  </Button>
-                </CardActions>
               </CardActionArea>
+              <CardActions>
+                <Button size="small" color="primary">
+                  Share
+                </Button>
+                <Button size="small" color="primary">
+                  Live Demo
+                </Button>
+              </CardActions>
             </Card>
           </Grid>
         ))}
