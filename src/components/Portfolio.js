@@ -9,13 +9,9 @@ import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
+import projectImage1 from "../images/meme.png";
+import projectImage2 from '../images/construction.jpg'
 
-import project1 from "../images/html-css-javascript-lg.jpg";
-import project2 from "../images/html-css-javascript.jpg";
-import project3 from "../images/javascript-fullstack.jpg";
-import project4 from "../images/mern-stack.jpg";
-import project5 from "../images/react-redux.jpg";
-import project6 from "../images/react.png";
 
 const useStyles = makeStyles((theme) => ({
   mainContainer: {
@@ -30,53 +26,61 @@ const useStyles = makeStyles((theme) => ({
 
 const projects = [
   {
-    name: "Project 1",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
-    consequatur magni quod nesciunt necessitatibus molestiae non
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus
-    iste alias sunt veritatis nisi dolores!`,
-    image: project1,
+    name: "Meme Weather",
+    description: `Meme Weather is my first full-stack project. This project
+    uses two APIs, one for getting weather imformation and another (created by me) displaying the meme. I am using
+    React for my front-end and Node for my backend.`,
+    image: projectImage1,
+    github: "http://github.com/TylerPMatthews/MemeWeatherFrontend.git",
+    live: "https://meme-weather-frontend.vercel.app",
   },
   {
-    name: "Project 2",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
-    image: project2,
+    name: "Coming soon ...",
+    description: `As I am coming toward the final few months of school, I will have more time for side projects. More projects coming very soon.`,
+    image: projectImage2,
+    github: "https://github.com/TylerPMatthews/",
+    live: "",
   },
-  {
-    name: "Project 3",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
-    image: project3,
-  },
-  {
-    name: "Project 4",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
-    image: project4,
-  },
-  {
-    name: "Project 5",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
-    image: project5,
-  },
-  {
-    name: "Project 6",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
-    image: project6,
-  },
+  // {
+  //   name: "Project 3",
+  //   description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
+  //   consequatur magni quod nesciunt necessitatibus molestiae non\
+  //   eligendi, magnam est aliquam recusandae? Magnam soluta minus\
+  //   iste alias sunt veritatis nisi dolores!`,
+  //   image: project3,
+  //   github: "https://github.com/TylerPMatthews/MemeWeatherFrontend.git",
+  //   live: "",
+  // },
+  // {
+  //   name: "Project 4",
+  //   description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
+  //   consequatur magni quod nesciunt necessitatibus molestiae non\
+  //   eligendi, magnam est aliquam recusandae? Magnam soluta minus\
+  //   iste alias sunt veritatis nisi dolores!`,
+  //   image: project4,
+  //   github: "https://github.com/TylerPMatthews/MemeWeatherFrontend.git",
+  //   live: "",
+  // },
+  // {
+  //   name: "Project 5",
+  //   description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
+  //   consequatur magni quod nesciunt necessitatibus molestiae non\
+  //   eligendi, magnam est aliquam recusandae? Magnam soluta minus\
+  //   iste alias sunt veritatis nisi dolores!`,
+  //   image: project5,
+  //   github: "https://github.com/TylerPMatthews/MemeWeatherFrontend.git",
+  //   live: "",
+  // },
+  // {
+  //   name: "Project 6",
+  //   description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
+  //   consequatur magni quod nesciunt necessitatibus molestiae non\
+  //   eligendi, magnam est aliquam recusandae? Magnam soluta minus\
+  //   iste alias sunt veritatis nisi dolores!`,
+  //   image: project6,
+  //   github: "https://github.com/TylerPMatthews/MemeWeatherFrontend.git",
+  //   live: "",
+  // },
 ];
 
 const Portfolio = () => {
@@ -105,11 +109,21 @@ const Portfolio = () => {
                 </CardContent>
               </CardActionArea>
               <CardActions>
-                <Button size="small" color="primary">
-                  Share
+                <Button
+                  size="small"
+                  color="primary"
+                  target="_blank"
+                  href={project.github}
+                >
+                  See Code
                 </Button>
-                <Button size="small" color="primary">
-                  Live Demo
+                <Button
+                  size="small"
+                  color="primary"
+                  target="_blank"
+                  href={project.live}
+                >
+                  Live Website
                 </Button>
               </CardActions>
             </Card>

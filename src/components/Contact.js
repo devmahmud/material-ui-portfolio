@@ -5,7 +5,6 @@ import TextField from "@material-ui/core/TextField";
 import Typography from "@material-ui/core/Typography";
 import Grid from "@material-ui/core/Grid";
 import Button from "@material-ui/core/Button";
-
 import Send from "@material-ui/icons/Send";
 
 const useStyles = makeStyles((theme) => ({
@@ -68,7 +67,7 @@ const Contact = () => {
       <Grid container justify="center">
         <Box component="form" className={classes.form}>
           <Typography variant="h5" className={classes.heading}>
-            Hire or Contact me...
+           Contact me
           </Typography>
           <InputField
             fullWidth={true}
@@ -97,7 +96,7 @@ const Contact = () => {
             endIcon={<Send />}
             className={classes.button}
           >
-            Contact Me
+            Send
           </Button>
         </Box>
       </Grid>

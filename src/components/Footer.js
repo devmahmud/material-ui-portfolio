@@ -2,9 +2,9 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import BottomNavigation from "@material-ui/core/BottomNavigation";
 import BottomNavigationAction from "@material-ui/core/BottomNavigationAction";
-import Facebook from "@material-ui/icons/Facebook";
-import Twitter from "@material-ui/icons/Twitter";
-import Instagram from "@material-ui/icons/Instagram";
+import GitHubIcon from "@material-ui/icons/GitHub";
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import AccountBoxIcon from "@material-ui/icons/AccountBox";
 
 const useStyles = makeStyles({
   bottomNavContainer: {
@@ -26,9 +26,24 @@ const Footer = () => {
 
   return (
     <BottomNavigation className={classes.bottomNavContainer}>
-      <BottomNavigationAction icon={<Facebook />} className={classes.root} />
-      <BottomNavigationAction icon={<Twitter />} className={classes.root} />
-      <BottomNavigationAction icon={<Instagram />} className={classes.root} />
+      <BottomNavigationAction
+        icon={<GitHubIcon />}
+        className={classes.root}
+        target="_blank"
+        href="https://github.com/TylerPMatthews"
+      />
+      <BottomNavigationAction
+        icon={<LinkedInIcon />}
+        className={classes.root}
+        target="_blank"
+        href="https://www.linkedin.com/in/🖥-tyler-matthews📱-065a411b3/"
+      />
+      <BottomNavigationAction
+        icon={<AccountBoxIcon />}
+        className={classes.root}
+        target="_blank"
+        href="https://drive.google.com/file/d/122yZvYMMK16vFC03VTmUE-X6i7MiCNOv/view?ths=true"
+      />
     </BottomNavigation>
   );
 };
