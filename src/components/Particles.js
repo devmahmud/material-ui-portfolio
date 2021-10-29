@@ -1,11 +1,11 @@
-import React from "react";
-import { Particles as ReactParticles } from "react-particles-js";
-import { makeStyles } from "@material-ui/core/styles";
+import React from 'react';
+import { Particles as ReactParticles } from 'react-particles-js';
+import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme) => ({
   particlesCanvas: {
-    position: "fixed",
-    opacity: "0.3"
+    position: 'fixed',
+    opacity: '0.3',
   },
 }));
 
@@ -25,10 +25,10 @@ const Particles = () => {
             },
           },
           shape: {
-            type: "circle",
+            type: 'circle',
             stroke: {
               width: 1,
-              color: "tomato",
+              color: '#60efff',
             },
           },
           size: {

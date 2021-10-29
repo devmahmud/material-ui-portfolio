@@ -21,7 +21,7 @@ import project8 from '../images/wapp.png';
 
 const useStyles = makeStyles((theme) => ({
   mainContainer: {
-    background: '#233',
+    background: '#3A3E41',
     height: '100%',
   },
   cardContainer: {

@@ -28,10 +28,10 @@ const useStyles = makeStyles((theme) => ({
     margin: 0,
   },
   arrow: {
-    color: 'tomato',
+    color: '#60efff',
   },
   title: {
-    color: 'tan',
+    color: '#fef9ff',
   },
   menuSliderContainer: {
     width: 250,
@@ -45,7 +45,7 @@ const useStyles = makeStyles((theme) => ({
     height: theme.spacing(13),
   },
   listItem: {
-    color: 'tan',
+    color: '#fef9ff',
   },
 }));
 

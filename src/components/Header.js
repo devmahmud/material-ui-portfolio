@@ -14,10 +14,10 @@ const useStyles = makeStyles((theme) => ({
     margin: theme.spacing(1),
   },
   title: {
-    color: 'tomato',
+    color: '#60efff',
   },
   subtitle: {
-    color: 'tan',
+    color: '#fef9ff',
     textTransform: 'uppercase',
   },
   typedContainer: {
@@ -44,14 +44,14 @@ const Header = () => {
         />
       </Grid>
       <Typography className={classes.title} variant='h4'>
-        <Typed strings={['Christian Olowokere']} typeSpeed={40} />
+        <Typed strings={['Christian Olowokere']} typeSpeed={30} />
       </Typography>
 
       <Typography className={classes.subtitle} variant='h5'>
         <Typed
           strings={['Frontend Developer', 'Aspiring Backend Developer']}
-          typeSpeed={40}
-          backSpeed={50}
+          typeSpeed={30}
+          backSpeed={40}
           loop
         />
       </Typography>
