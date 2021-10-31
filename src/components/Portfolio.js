@@ -18,6 +18,7 @@ import project5 from '../images/ttt.png';
 import project6 from '../images/rsp.png';
 import project7 from '../images/highlight.png';
 import project8 from '../images/wapp.png';
+import project9 from '../images/tdl.png';
 
 const useStyles = makeStyles((theme) => ({
   mainContainer: {
@@ -26,7 +27,7 @@ const useStyles = makeStyles((theme) => ({
   },
   cardContainer: {
     maxWidth: 330,
-    margin: '2.3rem auto',
+    margin: '.5rem auto',
   },
 }));
 
@@ -72,6 +73,12 @@ const projects = [
     description: `Great Weather App that utlizes webpack and API's to create a efficient website with dynamic loading`,
     image: project8,
     source: 'https://chriscash2020.github.io/WeatherApp/',
+  },
+  {
+    name: 'Todo List',
+    description: `Great todo list that stores projects and tasks inside local storage and can display whether they should be done by today or this week.`,
+    image: project9,
+    source: 'https://chriscash2020.github.io/ToDo-List/',
   },
   {
     name: 'Html & CSS Projects',
