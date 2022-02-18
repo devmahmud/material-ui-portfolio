@@ -11,8 +11,6 @@ import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 
 import project1 from '../images/rps.png';
-import project2 from '../images/eas.png';
-import project3 from '../images/calc.png';
 import project4 from '../images/lib.png';
 import project5 from '../images/ttt.png';
 import project6 from '../images/rsp.png';
@@ -39,26 +37,14 @@ const projects = [
     source: 'https://chriscash2020.github.io/RocK-Paper-Scissors/',
   },
   {
-    name: 'Etch-a-Sketch',
-    description: `Basic project to sketch colorful patterns built wit mouse events and ultizing the math random method.`,
-    image: project2,
-    source: 'https://chriscash2020.github.io/ETCH-A-SKETCH/',
-  },
-  {
-    name: 'Calculator',
-    description: `A basic calculator for arithmetic, helped me plan functions ahead and understand the need to comment on code.`,
-    image: project3,
-    source: 'https://chriscash2020.github.io/Calculator/',
-  },
-  {
     name: 'Library',
-    description: `A library list to store all your books read made through local storage and class objects.`,
+    description: `A library list to store all the books you've read made with class objects and stored in local storage.`,
     image: project4,
     source: 'https://chriscash2020.github.io/Library/',
   },
   {
     name: 'Tic-Tac-Toe',
-    description: `A basic game with alot of JS animations and stying built through Factory Programming`,
+    description: `A basic game with JS animations and stying built through Functional Programming`,
     image: project5,
     source: 'https://chriscash2020.github.io/Tic-Tac-Toe/',
   },
