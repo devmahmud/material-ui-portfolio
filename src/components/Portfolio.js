@@ -20,22 +20,22 @@ import project6 from "../images/react.png";
 const useStyles = makeStyles((theme) => ({
   mainContainer: {
     background: "#233",
-    height: "100%",
+    height: "100%"
   },
   cardContainer: {
     maxWidth: 345,
-    margin: "3rem auto",
-  },
+    margin: "3rem auto"
+  }
 }));
 
 const projects = [
   {
     name: "Project 1",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
+    description: `asLorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
     consequatur magni quod nesciunt necessitatibus molestiae non
     eligendi, magnam est aliquam recusandae? Magnam soluta minus
     iste alias sunt veritatis nisi dolores!`,
-    image: project1,
+    image: project1
   },
   {
     name: "Project 2",
@@ -43,7 +43,7 @@ const projects = [
     consequatur magni quod nesciunt necessitatibus molestiae non\
     eligendi, magnam est aliquam recusandae? Magnam soluta minus\
     iste alias sunt veritatis nisi dolores!`,
-    image: project2,
+    image: project2
   },
   {
     name: "Project 3",
@@ -51,7 +51,7 @@ const projects = [
     consequatur magni quod nesciunt necessitatibus molestiae non\
     eligendi, magnam est aliquam recusandae? Magnam soluta minus\
     iste alias sunt veritatis nisi dolores!`,
-    image: project3,
+    image: project3
   },
   {
     name: "Project 4",
@@ -59,7 +59,7 @@ const projects = [
     consequatur magni quod nesciunt necessitatibus molestiae non\
     eligendi, magnam est aliquam recusandae? Magnam soluta minus\
     iste alias sunt veritatis nisi dolores!`,
-    image: project4,
+    image: project4
   },
   {
     name: "Project 5",
@@ -67,7 +67,7 @@ const projects = [
     consequatur magni quod nesciunt necessitatibus molestiae non\
     eligendi, magnam est aliquam recusandae? Magnam soluta minus\
     iste alias sunt veritatis nisi dolores!`,
-    image: project5,
+    image: project5
   },
   {
     name: "Project 6",
@@ -75,8 +75,8 @@ const projects = [
     consequatur magni quod nesciunt necessitatibus molestiae non\
     eligendi, magnam est aliquam recusandae? Magnam soluta minus\
     iste alias sunt veritatis nisi dolores!`,
-    image: project6,
-  },
+    image: project6
+  }
 ];
 
 const Portfolio = () => {
