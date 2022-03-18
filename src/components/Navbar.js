@@ -25,35 +25,36 @@ import Footer from "../components/Footer";
 const useStyles = makeStyles((theme) => ({
   appbar: {
     background: "#222",
-    margin: 0,
+    margin: 0
   },
   arrow: {
-    color: "tomato",
+    color: "tomato"
   },
   title: {
-    color: "tan",
+    color: "tan"
   },
   menuSliderContainer: {
     width: 250,
     background: "#511",
-    height: "100%",
+    height: "100%"
   },
   avatar: {
     display: "block",
     margin: "0.5rem auto",
     width: theme.spacing(13),
-    height: theme.spacing(13),
+    height: theme.spacing(13)
   },
   listItem: {
-    color: "tan",
-  },
+    color: "tan"
+  }
 }));
 
 const menuItems = [
   { listIcon: <Home />, listText: "Home", listPath: "/" },
   { listIcon: <AssignmentInd />, listText: "Resume", listPath: "/resume" },
   { listIcon: <Apps />, listText: "Portfolio", listPath: "/portfolio" },
-  { listIcon: <ContactMail />, listText: "Contact", listPath: "/contact" },
+  { listIcon: <Apps />, listText: "Achievements", listPath: "/achievements" },
+  { listIcon: <ContactMail />, listText: "Contact", listPath: "/contact" }
 ];
 
 const Navbar = () => {
@@ -63,7 +64,7 @@ const Navbar = () => {
 
   const sideList = () => (
     <Box className={classes.menuSliderContainer} component="div">
-      <Avatar className={classes.avatar} src={avatar} alt="Mahmudul Alam" />
+      <Avatar className={classes.avatar} src={avatar} alt="Tejas S Kotian" />
       <Divider />
       <List>
         {menuItems.map((item, i) => (

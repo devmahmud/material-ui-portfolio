@@ -8,17 +8,17 @@ import Instagram from "@material-ui/icons/Instagram";
 
 const useStyles = makeStyles({
   bottomNavContainer: {
-    background: "#222",
+    background: "#222"
   },
   root: {
     "& .MuiSvgIcon-root": {
       fill: "tan",
       "&:hover": {
         fill: "tomato",
-        fontSize: "1.8rem",
-      },
-    },
-  },
+        fontSize: "1.8rem"
+      }
+    }
+  }
 });
 
 const Footer = () => {
