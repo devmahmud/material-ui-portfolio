@@ -9,6 +9,8 @@ import Instagram from "@material-ui/icons/Instagram";
 const useStyles = makeStyles({
   bottomNavContainer: {
     background: "#222",
+    height: "55px",
+    overflow: "hidden",
   },
   root: {
     "& .MuiSvgIcon-root": {
