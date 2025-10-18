@@ -21,6 +21,7 @@ import { makeStyles } from "@material-ui/core/styles";
 import avatar from "../avatar.png";
 
 import Footer from "../components/Footer";
+import { ArrowDownward } from "@material-ui/icons";
 
 const useStyles = makeStyles((theme) => ({
   appbar: {
@@ -63,7 +64,7 @@ const Navbar = () => {
 
   const sideList = () => (
     <Box className={classes.menuSliderContainer} component="div">
-      <Avatar className={classes.avatar} src={avatar} alt="Mahmudul Alam" />
+      <Avatar className={classes.avatar} src={avatar} alt="raza hussain" />
       <Divider />
       <List>
         {menuItems.map((item, i) => (
@@ -91,10 +92,10 @@ const Navbar = () => {
         <AppBar position="static" className={classes.appbar}>
           <Toolbar>
             <IconButton onClick={() => setOpen(true)}>
-              <ArrowBack className={classes.arrow} />
+              <ArrowDownward className={classes.arrow} />
             </IconButton>
             <Typography variant="h5" className={classes.title}>
-              Portfolio
+              Raza's Portfolio
             </Typography>
           </Toolbar>
         </AppBar>

@@ -121,7 +121,7 @@ const Resume = () => {
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
         >
-          2013
+          2020
         </Typography>
         <Box component="div" className={classes.timeLineItem}>
           <Typography
@@ -132,24 +132,24 @@ const Resume = () => {
             web design
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-            company name where worked
+            Online Worked (Fiverr, UpWork) 
           </Typography>
           <Typography
             variant="subtitle1"
             align="center"
             className={classes.subtitle1}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
+           As a web designer, I specialize in creating responsive, user-friendly websites with clean,
+            modern designs. I focus on enhancing user experience through intuitive layouts and effective 
+            design principles. Skilled in tools like Adobe XD, Figma, and front-end technologies, 
+            I bring client visions to life. My goal is to deliver visually appealing, functional, and engaging web designs.
           </Typography>
         </Box>
         <Typography
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
         >
-          2014
+          2022
         </Typography>
         <Box component="div" className={classes.timeLineItem}>
           <Typography
@@ -160,24 +160,21 @@ const Resume = () => {
             html & css
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-            company name where worked
+          Online Worked (Fiverr, UpWork) 
           </Typography>
           <Typography
             variant="subtitle1"
             align="center"
             className={classes.subtitle1}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
+           I have extensive experience in building responsive and visually appealing websites using HTML and CSS. From structuring clean, semantic HTML to styling with CSS, I ensure cross-browser compatibility and adherence to modern web standards. My work focuses on creating layouts that are both functional and aesthetically pleasing, using advanced CSS techniques like Flexbox, Grid, and media queries to ensure optimal performance across all devices.
           </Typography>
         </Box>
         <Typography
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
         >
-          2015
+          2023
         </Typography>
         <Box component="div" className={classes.timeLineItem}>
           <Typography
@@ -188,24 +185,21 @@ const Resume = () => {
             Fullstack Javascript
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-            company name where worked
+          Online Worked (Fiverr, UpWork)
           </Typography>
           <Typography
             variant="subtitle1"
             align="center"
             className={classes.subtitle1}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
+            I have experience in fullstack JavaScript development, building responsive front-end interfaces with React.js and handling back-end logic with Node.js and Express. I work with databases like MongoDB and SQL to create scalable web applications. My focus is on delivering efficient, end-to-end solutions that integrate both client and server-side functionality.
           </Typography>
         </Box>
         <Typography
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
         >
-          2017
+          2024
         </Typography>
         <Box component="div" className={classes.timeLineItem}>
           <Typography
@@ -216,17 +210,14 @@ const Resume = () => {
             Django & React
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-            company name where worked
+          Online Worked (Fiverr, UpWork)
           </Typography>
           <Typography
             variant="subtitle1"
             align="center"
             className={classes.subtitle1}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
+            I specialize in building fullstack web applications using Django for back-end development and React for front-end interfaces. With Django, I create robust APIs and handle server-side logic, while React enables me to build responsive, dynamic user interfaces. My focus is on seamless integration, ensuring efficient communication between the front-end and back-end for smooth, scalable applications.
           </Typography>
         </Box>
       </Box>
